@@ -21,7 +21,7 @@ I chose these key features through EDA.
 ![boxplot income_education num](https://user-images.githubusercontent.com/87869709/155032488-acf0cd32-fd71-4956-88a3-a03f178793e0.png)
 ![boxplot income_age](https://user-images.githubusercontent.com/87869709/155032495-64e60d5d-0416-43b2-a7bd-c7bcdbe69418.png)
 
-### Accuracy score when adding key features-
+### Accuracy score when adding a few key features-
 Score on val w/ education num:
 0.725912067352666
 
