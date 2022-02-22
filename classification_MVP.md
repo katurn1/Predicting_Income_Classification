@@ -8,7 +8,8 @@ For the project I decided to use Logistic Regression and accuracy score to maxim
 I decided to use data from just the USA (90% of the data comes from the USA) and filtered for people working >=40 hors per week leaving me with 21K rows to work with. 
 I then created dummy data for all categorical data.
 
-A false positive or false negative will lead to less accuracy in the model.
+A false positive (predict >50K but wrong) impact would be that the nonprofit isn't able to accuratly help people reach the minimum goal of making >50K.
+A false negtive (predict <=50K but wrong) impact would be that people making at least 50K and above may be lead astray from what is already working for them or there will be no further growth for them using in the program created by the nonprofit.
 
 ### Baseline accuracy score of all data-
 Score on train:
