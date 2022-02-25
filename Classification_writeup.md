@@ -105,6 +105,7 @@ Used grid seach to optimize hyperparameter for RidgeClassifier
 **Final Test Score Logestic Regression**
 
 Accuracy Score on test: 0.796
+
 Logistic Regression Test Data F1: 0.614
 
 ## Tools
