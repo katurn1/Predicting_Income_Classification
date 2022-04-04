@@ -1,7 +1,7 @@
 # Predicting Income
 
 My client, 'Grow Smart' is a nonprofit is looking to roll out a program country wide in the US to help people future plan. They want to help people under the current median 
-income to achive a median US income and for people already above the median income grow into a better finantial state. The will use my recomendations to look 
+income to achieve a median US income and for people already above the median income grow into a better financial state. The will use my recommendations to look 
 into and/or use key features in building their program for rollout.
 
 ### Impact hypothesis
@@ -46,12 +46,12 @@ Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlan
 ## Algorithms
 ### Data Cleaning and Feature Engineering
 1. I began by making sure Nulls were correctly identified then dropped.
-2. Stripped all data emopty space.
-3. Dropped un-needed cloumns.
-4. Created dummy variables for all catagirical features.
+2. Stripped all data empty space.
+3. Dropped un-needed columns.
+4. Created dummy variables for all categorical features.
 
 After some cleaning and EDA I decided to use data from just the USA (90% of the data comes from the USA) and filtered for people working >=40 hors per 
-week leaving me with 21K rows 21,378 rows / 44 columnsto work with. 
+week leaving me with 21K rows 21,378 rows / 44 columns to work with. 
 
 I decided not to use the feature fnlwgt: it is the (estimated) weight of people each row in the data represents. The idea is that if two samples have the same(or similar) fnlwgt 
 they have similar characteristics, demographically speaking. Say a sample 7,120 and 33 are having similar fnlwgt values they are more likely to be of the same race, similar educational 
@@ -61,9 +61,9 @@ Train, Validate, Test Split: 60/20/20
 
 ### Classification Modeling and Parameter Tuning
 
-I used the devide by 4 rule to get my coeffeicents.
+I used the divide by 4 rule to get my coefficients.
 
-Scaled data and used grid seach to optimize hyperparameter for Logistic Regression
+Scaled data and used grid search to optimize hyper-parameter for Logistic Regression
 
 **Logistic Regression**
 
@@ -79,7 +79,7 @@ I built a baseline logistic regression.
 - train F1 score: 0.649
 - val F1 score: 0.638
 
-Used grid seach to optimize hyperparameter for RidgeClassifier
+Used grid search to optimize hyper-parameter for RidgeClassifier
 
 **RidgeClassifier**
 
@@ -92,7 +92,7 @@ Used grid seach to optimize hyperparameter for RidgeClassifier
 
 - Logistic Regression on Oversampled Train Data F1: 0.772
 - Logistic Regression on Oversampled val Data F1:  0.671
-- Logistic Regression on Oversampled val Data Acuracy:  0.776
+- Logistic Regression on Oversampled val Data Accuracy:  0.776
 
 - RidgeClassifier on Oversampled train F1: 0.683
 - RidgeClassifier on Oversampled val F1: 0.632
@@ -102,7 +102,7 @@ Used grid seach to optimize hyperparameter for RidgeClassifier
 - Logistic RegressionCV on Oversampled val F1: 0.638
 - Logistic RegressionCV on Oversampled val Accuracy: 0.774
 
-**Final Test Score Logestic Regression**
+**Final Test Score Logistic Regression**
 
 Accuracy Score on test: 0.796
 
@@ -112,7 +112,7 @@ Logistic Regression Test Data F1: 0.614
 - Google Sheets, Pandas and Numpy for data acquisition, EDA, cleaning, and feature engineering
 - Imblearn for resampling unbalanced classes
 - Sklearn for modeling and parameter tuning
-- Grid Search for hyperparameter optimization
+- Grid Search for hyper-parameter optimization
 - Matplotlib and Seaborn for data and model visualization
 
 
