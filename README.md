@@ -39,3 +39,17 @@ Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlan
 
 After data acqusition, cleaning, EDA, and feature engineering I decided to use data from just the USA (90% of the data comes from the USA) and filtered for people working >=40 hors per week leaving me with 21K rows 21,378 rows / 44 columns to work with. 
 
+## Data Insights
+1. The median age for a person making <=50k is 38 and the median for a person makeing >50k is 42.
+
+What I gather from this is that the longer a person is in the workforce the more likely they are to make >50k. Most people who are in a carrer tend to move up in salery over time.
+![boxplot income_age](https://user-images.githubusercontent.com/87869709/175128916-e496fe12-72fd-4162-a462-824037064bfa.png)
+
+2. People who have a median education level of "some college" are more likely to make <=50k. People with a median education level of an associates degree are more likely 
+to make >50k.
+![boxplot income_education num](https://user-images.githubusercontent.com/87869709/175129818-f2a58e71-626c-4d61-8703-73c9787eb031.png)
+
+3. The majority of people working 40hrs per week make <=50k but even if a person works more than 40hrs they are not more likely to make >50k.
+![hist hours per week_edit](https://user-images.githubusercontent.com/87869709/175130548-337299f9-95a7-4f3b-b3c5-addafed70503.png)
+
+
