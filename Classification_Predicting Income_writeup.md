@@ -1,7 +1,7 @@
 # Predicting Income
 
 My client, 'Grow Smart' is a nonprofit is looking to roll out a program country wide in the US to help people future plan. They want to help people under the current median 
-income to achieve a median US income and for people already above the median income grow into a better financial state. The will use my recommendations to look 
+income to achieve a median US income and for people already above the median income grow into a better financial state. They will use my recommendations to look 
 into and/or use key features in building their program for rollout.
 
 ### Impact hypothesis
