@@ -39,7 +39,7 @@ Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlan
 
 After data acqusition, cleaning, EDA, and feature engineering I decided to use data from just the USA (90% of the data comes from the USA) and filtered for people working >=40 hors per week leaving me with 21K rows 21,378 rows / 44 columns to work with. 
 
-## Data Insights
+## Key Insights
 1. The median age for a person making <=50k is 38 and the median for a person makeing >50k is 42.
 
 What I gather from this is that the longer a person is in the workforce the more likely they are to make >50k. Most people who are in a carrer tend to move up in salery over time.
@@ -52,4 +52,4 @@ to make >50k.
 3. The majority of people working 40hrs per week make <=50k but even if a person works more than 40hrs they are not more likely to make >50k.
 ![hist hours per week_edit](https://user-images.githubusercontent.com/87869709/175130548-337299f9-95a7-4f3b-b3c5-addafed70503.png)
 
-
+4. 
