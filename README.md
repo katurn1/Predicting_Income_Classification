@@ -24,7 +24,6 @@ Income: 0 = <=50K & 1 = >50K
 **Features Key**
 
 - age: continuous.
-- fnlwgt: continuous.
 - education: Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool.
 - education-num: continuous.
 - marital-status: Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse.
@@ -38,9 +37,5 @@ Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces.
 Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, 
 Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
 
-After data acqusition, cleaning, EDA, and feature engineering I decided to use data from just the USA (90% of the data comes from the USA) and filtered for people working >=40 hors per 
-week leaving me with 21K rows 21,378 rows / 44 columns to work with. 
+After data acqusition, cleaning, EDA, and feature engineering I decided to use data from just the USA (90% of the data comes from the USA) and filtered for people working >=40 hors per week leaving me with 21K rows 21,378 rows / 44 columns to work with. 
 
-I decided not to use the feature fnlwgt: it is the (estimated) weight of people each row in the data represents. The idea is that if two samples have the same(or similar) fnlwgt 
-they have similar characteristics, demographically speaking. Say a sample 7,120 and 33 are having similar fnlwgt values they are more likely to be of the same race, similar educational 
-and social background, etc., but fnlwgt is not standardized across different states.
