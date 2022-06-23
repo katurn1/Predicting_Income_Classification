@@ -104,9 +104,9 @@ Used grid search to optimize hyper-parameter for RidgeClassifier
 
 **Final Test Score Logistic Regression**
 
-Accuracy Score on test: 0.796
+Accuracy Score on test: 0.802
 
-Logistic Regression Test Data F1: 0.614
+Logistic Regression Test Data F1: 0.641
 
 ## Tools
 - Google Sheets, Pandas and Numpy for data acquisition, EDA, cleaning, and feature engineering
