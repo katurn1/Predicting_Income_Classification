@@ -39,18 +39,18 @@ Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlan
 
 After data acqusition, cleaning, EDA, and feature engineering I decided to use data from just the USA (90% of the data comes from the USA) and filtered for people working >=40 hors per week leaving me with 21K rows 21,378 rows / 44 columns to work with. 
 
-## Key Insights & Recomedations
+## Key Insights & Recommendations
 1. The median age for a person making <=50k is 38 and the median for a person makeing >50k is 42.
 
 What I gather from this is that the longer a person is in the workforce the more likely they are to make >50k. Most people who are in a carrer tend to move up in salery over time. 
 
-**Recomedation**- 'Grow Smart' could look into targeting and heping people under tne median age of 38.
+**Recommendation**- 'Grow Smart' could look into targeting and heping people under tne median age of 38.
 ![boxplot income_age](https://user-images.githubusercontent.com/87869709/175128916-e496fe12-72fd-4162-a462-824037064bfa.png)
 
 2. People who have a median education level of "some college" are more likely to make <=50k. People with a median education level of an associates degree are more likely 
 to make >50k.
 
-**Recomedation**- 'Grow Smart' can work on how to best help people reach at least 2 years of college to gain an associates degree.
+**Recommendation**- 'Grow Smart' can work on how to best help people reach at least 2 years of college to gain an associates degree.
 ![boxplot income_education num](https://user-images.githubusercontent.com/87869709/175129818-f2a58e71-626c-4d61-8703-73c9787eb031.png)
 
 3. The majority of people working 40hrs per week make <=50k but even if a person works more than 40hrs they are not more likely to make >50k.
@@ -58,7 +58,7 @@ to make >50k.
 
 4. When it comes to family relationship the husban is the least likely to make <=50k and the most likely to make >50k. The situation is flipped for the wife. 'Other Relative' (nephew, grandparent, etc.) in this catigory, someone not making much or any income, is the most likley out of everyone to be making <=50k and least likely to be making >50k.
 
-**Recomedation**- 'Grow Smart' should look into targeting wives for the program and look deeper into the 'Other Relative' catigory and how best to assist that demographic.
+**Recommendation**- 'Grow Smart' should look into targeting wives for the program and look deeper into the 'Other Relative' catigory and how best to assist that demographic.
 ![hist income_relationship_edit](https://user-images.githubusercontent.com/87869709/175344750-19ca7ae4-6a66-497f-8ac7-63fb1beb392d.png)
 
 5. After feature engineering I was left with 43 features. I used the 'devide by 4 rule' to get my coefficients. Marked with the Red arrows are the standout coefficients.
@@ -74,7 +74,7 @@ probability that they will make >50k.
 
 All of the standout negative coefficients fall under 'Marital Status' (single people). What this is saying is that being single will decrease the the probability that one will make 50k by or up to 40%.
 
-**Recomedation**- 'Grow Smart' should look into strategies for targeting/ helping individuals that are single within the 'Marital Status' category.
+**Recommendationn**- 'Grow Smart' should look into strategies for targeting/ helping individuals that are single within the 'Marital Status' category.
 
 ## Modeling Results
 I tried several types of models. Scaled data and used grid search to optimize hyper-parameters for Logistic Regression and implemented a Train, Validate, Test Split: 60/20/20
