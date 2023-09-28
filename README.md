@@ -8,7 +8,7 @@ They will use my recommendations to look into and/or use key features in buildin
 
 ## Methodology
 I hypothesized that creating a classification model for 'Grow Smart' would allow them make accurate predictions on how to get people to the goal of making a median 
-income and beyond. Using census data I built a classification model to make predictions on weather an indevidual would make <=50K or >50K.
+income and beyond. Using census data I built a classification model to make predictions on wether an individual would make <=50K or >50K.
 
 ## Data Description
 **Data Specs:**
