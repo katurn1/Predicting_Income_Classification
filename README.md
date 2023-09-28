@@ -37,7 +37,7 @@ Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces.
 Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, 
 Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
 
-After data acqusition, cleaning, EDA, and feature engineering I decided to use data from just the USA (90% of the data comes from the USA) and filtered for people working >=40 hors per week leaving me with 21K rows 21,378 rows / 44 columns to work with. 
+After data acquisition, cleaning, EDA, and feature engineering I decided to use data from just the USA (90% of the data comes from the USA) and filtered for people working >=40 hors per week leaving me with 21K rows 21,378 rows / 44 columns to work with. 
 
 ## Key Insights & Recommendations
 1. The median age for a person making <=50k is 38 and the median for a person makeing >50k is 42.
