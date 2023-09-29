@@ -42,7 +42,7 @@ After data acquisition, cleaning, EDA, and feature engineering I decided to use 
 ## Key Insights & Recommendations
 1. The median age for a person making <=50k is 38 and the median for a person makeing >50k is 42.
 
-What I gather from this is that the longer a person is in the workforce the more likely they are to make >50k. Most people who are in a carrer tend to move up in salery over time. 
+What I gather from this is that the longer a person is in the workforce the more likely they are to make >50k. Most people who are in a carrer tend to move up in salary over time. 
 
 **Recommendation**- 'Grow Smart' could look into targeting and heping people under tne median age of 38.
 ![boxplot income_age](https://user-images.githubusercontent.com/87869709/175128916-e496fe12-72fd-4162-a462-824037064bfa.png)
