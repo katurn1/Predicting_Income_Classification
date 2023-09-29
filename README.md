@@ -44,7 +44,7 @@ After data acquisition, cleaning, EDA, and feature engineering I decided to use 
 
 What I gather from this is that the longer a person is in the workforce the more likely they are to make >50k. Most people who are in a carrer tend to move up in salary over time. 
 
-**Recommendation**- 'Grow Smart' could look into targeting and heping people under tne median age of 38.
+**Recommendation**- 'Grow Smart' could look into targeting and helping people under the median age of 38.
 ![boxplot income_age](https://user-images.githubusercontent.com/87869709/175128916-e496fe12-72fd-4162-a462-824037064bfa.png)
 
 2. People who have a median education level of "some college" are more likely to make <=50k. People with a median education level of an associates degree are more likely 
