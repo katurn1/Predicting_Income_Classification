@@ -61,7 +61,7 @@ to make >50k.
 **Recommendation**- 'Grow Smart' should look into targeting wives for the program and look deeper into the 'Other Relative' catigory and how best to assist that demographic.
 ![hist income_relationship_edit](https://user-images.githubusercontent.com/87869709/175344750-19ca7ae4-6a66-497f-8ac7-63fb1beb392d.png)
 
-5. After feature engineering I was left with 43 features. I used the 'devide by 4 rule' to get my coefficients. Marked with the Red arrows are the standout coefficients.
+5. After feature engineering I was left with 43 features. I used the 'divide by 4 rule' to get my coefficients. Marked with the Red arrows are the standout coefficients.
 <img width="804" alt="standout coefficients" src="https://user-images.githubusercontent.com/87869709/175346411-a7251357-a457-4721-bcae-5c05d1851c56.png">
 
 Below are the numbers to these standout coefficients.
